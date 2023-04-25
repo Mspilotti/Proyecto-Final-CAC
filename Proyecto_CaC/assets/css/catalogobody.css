@@ -1,0 +1,99 @@
+ /* Body */
+
+ .banner__imagen {
+    width: 100%;
+}
+
+.titulo {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 500%;
+    position: absolute;
+    left: 50%;
+    text-align:center; 
+    top: 25%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+
+.titulo__grilla {
+    color: #8d0606;
+    font-family: Pacifico, cursive;
+    font-size: 300%;
+    text-align: center;
+    position: absolute;
+    left: 20%; 
+    top: 55%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    transform: translate(-50%, -50%);   
+}
+
+.grillado {
+    color: #eee8e8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    left: 10%; 
+    top: 75%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    transform: translate(-50%, -50%); 
+    
+}
+
+.grillado_precios {
+    color: #eee8e8;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 95%;
+    text-align: center;
+    position: absolute;
+    left: 85%; 
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    transform: translate(-50%, -50%); 
+}
+
+
+.pie-de-pagina {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 1.5625rem;
+}
+
+.contenedor {
+    background-color: rgb(205, 226, 233);
+    padding: 10px;
+    display: grid;     /*grid:hago que mi contenedor sea un contenedor en bloque | inline-grid:hago que mi contenedor sea un contenedor en linea*/
+     grid-template-columns: 100px 100px 100px; 
+    /* grid-template-columns: 50% 30% 20%; */
+    /* grid-template-columns: auto auto auto; */
+    /* grid-template-columns: 40% auto auto; */
+    /* grid-template-columns: 1fr 1fr ; */
+    /* grid-template-columns: 3fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3, 2fr 1fr); */
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /* row-gap: 30px; */
+    /* column-gap: 10px; */
+    /* gap: 20px 5px; */
+    /* grid-template-rows: 50px 150px 100px; */
+    /*grid-template-rows: 2fr 1fr 3fr;
+    /* height: 1000px; */
+    /*grid-auto-rows: 2fr; /* hace que todas las celdas que le siguen tengan 2fr */
+    justify-content: start;
+}
+
+.box {
+    /*background-color: blue;*/
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: 1px dotted white;
+
+}
+

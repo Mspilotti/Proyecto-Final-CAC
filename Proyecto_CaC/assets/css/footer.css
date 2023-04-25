@@ -1,0 +1,83 @@
+.quienes-somos__titulo {
+    margin-bottom: 1rem;
+    color: #8d0606;
+    font-size: 3.1875rem;
+    font-family: Pacifico, cursive;
+}
+
+
+.quienes-somos {
+    text-align: center;
+    padding: 5rem;
+}
+
+.persona__contacto{
+    width: 15%;
+}
+
+.persona {
+    display: flex;
+    flex-direction: column;
+}
+
+.persona__nombre {
+    margin: 1rem 0;
+    font-family: Pacifico, cursive;
+    color: #8d0606;
+    font-size: 2rem;
+}
+
+.personas {
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+
+.persona__imagen {
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    width: 300%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.persona__linkedin {
+    width: 15%;
+}
+
+.pie-de-pagina {
+    background: #bfbfbf;
+    color: #fdfdfd;
+    text-align: center;
+    padding: 1.5625rem;
+}
+
+@media screen and (min-width: 0) {
+    .persona {
+        margin-bottom: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .persona {
+        margin-bottom: 0;
+    }
+    
+}
+
+@media screen and (min-width: 0) {
+    .personas {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .personas {
+        flex-direction: row;
+    }
+    
+}

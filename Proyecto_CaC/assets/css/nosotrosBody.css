@@ -1,0 +1,49 @@
+.todo {
+    background-color:bisque;
+}
+
+.banner__imagen {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.descripcion {
+    margin-top: 0,5rem;
+    text-align: center;
+    padding: 10%;
+}
+
+.titulos_nosotros {
+    margin-top: 1rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+}
+
+
+.sobre__descripcion1 {
+    font-size: 110%;
+}
+
+
+.premio__coll{
+    margin-top: 2rem;
+}
+
+.sobre__descripcion2 {
+    margin-top: 2rem;
+    font-size: 110%;
+}
+
+
+.medallaOro {
+    width: 10%;
+}
+
+.medallaPlata {
+    width: 10%;
+} 
+
+.descripcion__premios {
+    margin-top: 3rem;
+    font-size: 125%;
+}

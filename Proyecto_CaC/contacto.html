@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link rel = "icon" href = "assets/img/logo.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
+    <link href="Css/reset.css" rel="stylesheet">
+    <link href="./assets/css/contacto.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a0e69da744.js" crossorigin="anonymous"></script>
+    <title>Vynil Rental - Contacto</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <img class="logo" src="./assets/img/logo-vinilo.png" alt="vinilogo">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
+                <li class="menu__item"><a class="menu__link" href="catalogo.html">Catálogo</a></li>
+                <li class="menu__item"><a class="menu__link" href="nosotros.html">Quienes somos</a></li>
+                <li class="menu__item"><a class="menu__link activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        </img>
+    </header>
+    <section class="banner">
+        <div class="row">
+            <div class="side">
+                <h3>Donde Estamos</h3>
+                <P>
+                    Av. Sarasa 1111
+                    <br>
+                    (2020) CABA, Buenos Aires, Argentina
+                    <br>
+                    <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1266.158493293316!2d-58.38129928004964!3d-34.603934715630004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1682388806235!5m2!1ses-419!2sar"
+                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </P>
+                <h3>Telefono</h3>
+                <P>+54 11 5707-8151
+                    <br>
+                </P>
+
+
+            </div>
+            <div class="main">
+                <form class="formulario" metodo="get" action="" name="formulario" id="formulario">
+                    <h3>Formulario de contacto</h3>
+                    <div class="col-sm-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+
+                        <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Juan">
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Perez">
+
+                    </div>
+                    <div class="col-sm-6">
+                        <label for="telefono" class="form-laberl">Telefono</label>
+                        <input type="number" class="form-control" name="telefono" id="telefono"
+                            placeholder="+54 11 1234-1234">
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="mail" class="form-laberl">Mail</label>
+                        <input type="text" class="form-control" id="mail" name="mail"
+                            placeholder="juanperez@juanperez.com">
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="mensaje" class="form-laberl">Mensaje (Opcional)</label>
+                        <textarea row="3" mt="3" type="text" class="form-control" id="mensaje" name="mensaje" cols="30"
+                            rows="10"> </textarea>
+
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <label for="termcond" class="form-check-label">Acepto terminos y
+                                condiciones</label>
+                            <input type="checkbox" id="termcond" name="termcond" class="form-check-input">
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="submit" id="btn" name="btn" value="Entrar">
+
+                        <br><br>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <script src="contacto.js"></script>
+    </section>
+</body>
+<footer class="pie-de-pagina">
+    <a class="redsoc" href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"
+            aria-hidden="true" style="color: #535353;"></i></a>
+    <a class="redsoc" href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"
+            aria-hidden="true" style="color: #535353;"></i></a>
+
+</footer>
+
+</html>
