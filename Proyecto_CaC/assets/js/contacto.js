@@ -42,6 +42,16 @@ document.addEventListener("DOMContentLoaded", function() {
    return;
    }
     
-    alert("Muchas gracias por enviar el formulario");
-    this.submit();
+     // Envía los datos del formulario al servidor
+  var formData = new FormData(document.getElementById("formulario"));
+  var xhr = new XMLHttpRequest();
+  xhr.open("POST", "./assets/php/mailer.php", true);
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      alert('Muchas gracias por enviar el formulario');
+      } else if (xhr.readyState === 4 && xhr.status !== 200) {
+      alert('Ocurrió un error al enviar el formulario');
+    }
+  };
+  xhr.send(formData);
   }
